@@ -1,0 +1,33 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+   }
+
+   
+
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+  }
+  
+  
+
+
+/* Estilos para la imagen central */
+.imagencentral {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: 80%;
+  }
+  
+  

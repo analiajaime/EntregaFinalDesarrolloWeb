@@ -1,0 +1,25 @@
+
+/* Estilos básicos para la sección */
+.work-with-us {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 70vh;
+  
+  }
+  
+  /* Estilo básico para el botón */
+  .work-with-us button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #333;
+    color: $light-color;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Efecto hover para el botón */
+  .work-with-us button:hover {
+    background-color: #555;
+  }
+  

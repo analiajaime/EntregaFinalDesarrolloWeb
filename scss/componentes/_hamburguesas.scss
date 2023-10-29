@@ -1,0 +1,56 @@
+
+/* Estilos para la imagen en la sección */
+section img {
+    max-width: 50%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    .contenedorhamburguesas {
+        margin: 20px;
+        width: 300px;
+        text-align: center;
+        font-weight: bolder;
+        font-style: normal;
+        color: $black-color;
+        font-size: 1.2em;
+    }
+
+}
+
+.font, .banner, .menu, .footer {
+    font-family: 'Squashy Flow', sans-serif; 
+}
+
+
+/* Estilos para los párrafos en los contenedores de hamburguesas */
+
+.contenedorhamburguesas {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .imghamburguesas {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .contenedorhamburguesas p {
+    font-style: normal;
+    color: $black-color;
+  }
